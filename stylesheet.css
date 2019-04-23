@@ -9,21 +9,36 @@ a {
 h1 {
     text-align: center;
     text-shadow:
-    0 0 5px white,0 0 5px white,
-    0 0 2px white,0 0 5px white,
-    0 0 5px white,0 0 5px white,
-    0 0 5px white,0 0 5px white;
-    color : black;
+    0 0 10px black,0 0 10px black,
+    0 0 10px black,0 0 10px black,
+    0 0 10px black,0 0 10px black,
+    0 0 10px black,0 0 10px black;
+    color : white;
     font-family: 'Open Sans Condensed';
     font-size: 100px;
 
     border: groove white ;
     border-radius: 15px;
+    border-top-left-radius: 0px;
+
     margin-bottom: 20px;
+
+    background-image: url("images/EDI\'s.jpeg");
+}
+.header {
+    position:relative;
 }
 .banner {
     margin:0; padding: 0;
     text-align: center;
+    border:groove white;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: black;
+    position:absolute;
+    top:-54px
+    
 }
 .banner li{
     display: inline;
