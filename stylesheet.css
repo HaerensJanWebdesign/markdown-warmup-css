@@ -1,0 +1,17 @@
+body {
+    background-color: #26272E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    text-shadow:0 0 5px white,0 0 5px white,
+    0 0 2px white,0 0 5px white,
+    0 0 5px white,0 0 5px white,
+    0 0 5px white,0 0 5px white;
+    color : black;
+    font-family: 'Open Sans Condensed';
+    right: 30px;
+    font-size: 100px;
+    border: groove white ;
+}
