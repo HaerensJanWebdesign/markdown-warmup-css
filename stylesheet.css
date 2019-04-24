@@ -1,5 +1,6 @@
 body {
     background-color: #26272E;
+<<<<<<< HEAD
 }
 h1 {
     text-align: center;
@@ -22,4 +23,109 @@ ul {
     position: fixed;
     right: 50px;
     top: 80px;
+=======
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    text-shadow:
+    0 0 10px black,0 0 10px black,
+    0 0 10px black,0 0 10px black,
+    0 0 10px black,0 0 10px black,
+    0 0 10px black,0 0 10px black;
+    color : white;
+    font-family: 'Open Sans Condensed';
+    font-size: 100px;
+
+    border: groove white ;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+
+    margin-bottom: 20px;
+
+    background-image: url("images/EDI\'s.jpeg");
+}
+.header {
+    position:fixed;
+    top:0;
+    width:100%; 
+    background-color: rgba(0, 0, 0, .5);
+    height: 180px;
+}
+.banner {
+    margin:0; padding: 0;
+    text-align: center;
+    border:groove white;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: black;
+    position:absolute;
+    top:12px;
+    
+}
+.banner li{
+    display: inline;
+    width: 100%;
+    padding-right: 20px;
+}
+.box-1 {
+    border: solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-1 h2{
+    text-align: center;
+}
+.box-2 {
+    border: solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-2 h2{
+    text-align: center;
+}
+.box-3 {
+    border: solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-3 h2{
+    text-align: center;
+}
+.box-4 {
+    border: solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-4 h2{
+    text-align: center;
+}
+.box-5 {
+    border: solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-5 h2{
+    text-align: center;
+}
+.box-6 {
+    border: solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box-6 h2{
+    text-align: center;
+>>>>>>> 9e66a16e4812c1e4cdacb939aa52f296ef32f445
 }
